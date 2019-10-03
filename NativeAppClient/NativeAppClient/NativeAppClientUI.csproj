@@ -80,7 +80,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <ProjectReference Include="..\NativeAppClientLibrary\NativeAppClientLibrary.csproj">
+      <Project>{9896a384-a5bb-4646-908c-e945d43a0224}</Project>
+      <Name>NativeAppClientLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\doc01.ico" />
+    <Content Include="Resources\document01.png" />
+    <Content Include="Resources\document02.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

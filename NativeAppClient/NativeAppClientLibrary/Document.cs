@@ -13,5 +13,17 @@ namespace NativeAppClientLibrary
         public string documentContent { get; set; }
         public DateTime documentCreationDate { get; set; }
 
+        //skończyłem na 25 minucie // plik się nie nadpisuje
+        //konstruktor
+        /*
+        public Document(string documentName)
+        {
+            this.documentName = documentName;
+        }
+        */
     }
+
+
+
+
 }
