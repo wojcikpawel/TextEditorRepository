@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NativeAppClient
 {
-    public partial class Form1 : Form
+    public partial class NativeAppClient : Form
     {
-        public Form1()
+        public NativeAppClient()
         {
             InitializeComponent();
         }
