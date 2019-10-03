@@ -18,3 +18,14 @@
 * wysłanie zmian na serwer
 * pobranie listy plików z serwera
 * komunikacja z serwerem odbywa się za pomocą REST API
+
+## Additional
+* .NET components:
+  * MenuStrip
+  * SaveFileDialog
+  * OpenFileDialog
+  * Button
+  * GroupBox
+  * PictureBox
+  * RichTextBox
+  * DataGridView
