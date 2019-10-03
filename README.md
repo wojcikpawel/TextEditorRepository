@@ -1,4 +1,4 @@
-# Text Editor Application - Desktop - Windows Forms
+# Text Editor Application
 
 ## Table of contents
 * [General Info](#general-info)
@@ -8,8 +8,9 @@
 * [Running Desktop Application](#running-desktop-application)
 * [Library](#library)
 * [Additional](#additional)
+* [Native Application](#native-application-desktop-windows-forms)
 
-## Additional
+## Native Application Desktop Windows Forms
 
 * utworzenie nowego pliku
 * wyświetlenie pliku
