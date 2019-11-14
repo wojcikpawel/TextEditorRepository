@@ -24,6 +24,7 @@
 * Node Modules - http://node-modules.com/
 
 ## Server
+* mongoose - https://mongoosejs.com/
 
 ## Database
 
