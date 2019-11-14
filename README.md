@@ -19,6 +19,18 @@
 * pobranie listy plików z serwera
 * komunikacja z serwerem odbywa się za pomocą REST API
 
+## Web Application React.js
+
+* Node Modules - http://node-modules.com/
+
+## Server
+
+## Database
+
+## REST Application Programming Interface
+
+## Websocet
+
 ## Additional
 * .NET components:
   * MenuStrip
@@ -29,11 +41,3 @@
   * PictureBox
   * RichTextBox
   * DataGridView
-  
-## Web Application React.js
-
-* install node-modules:
-```sh
-npm install -g node-modules
-```
-* Node Modules - http://node-modules.com/
