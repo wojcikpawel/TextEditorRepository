@@ -29,7 +29,7 @@
 
 ## REST Application Programming Interface
 
-## Websocet
+## WebSocket
 
 ## Additional
 * .NET components:
