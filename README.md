@@ -24,7 +24,7 @@
 * Node Modules - http://node-modules.com/
 
 ## Server
-* mongoose - https://mongoosejs.com/
+* mongoose - https://mongoosejs.com/ || https://github.com/Automattic/mongoose
 
 ## Database
 
