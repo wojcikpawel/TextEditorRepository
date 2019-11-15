@@ -46,6 +46,14 @@ npm install mongodb
 ```sh
 mongo -version
 ```
+* Running Databse Server:
+```sh
+mongod --dbpath .
+```
+* Running Process Database:
+```sh
+mongo
+```
 
 ## REST Application Programming Interface
 
