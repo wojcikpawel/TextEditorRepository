@@ -31,10 +31,21 @@ node app.js
 ```
 
 * mongoose - https://mongoosejs.com/ || https://github.com/Automattic/mongoose || https://www.npmjs.com/package/mongoose
-
+* Install mongoose:
+```sh
+npm install mongoose
+```
 
 ## Database
 * mongodb - https://www.mongodb.com/ || https://www.npmjs.com/package/mongodb
+* Install mongodb:
+```sh
+npm install mongodb
+```
+* Check version:
+```sh
+mongo -version
+```
 
 ## REST Application Programming Interface
 
