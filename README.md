@@ -35,6 +35,10 @@ node app.js
 ```sh
 npm install mongoose
 ```
+* Install body-parser
+```sh
+npm install body-parser
+```
 
 ## Database
 * mongodb - https://www.mongodb.com/ || https://www.npmjs.com/package/mongodb
