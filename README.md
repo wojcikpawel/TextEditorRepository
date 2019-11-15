@@ -22,6 +22,10 @@
 ## Web Application React.js
 
 * Node Modules - http://node-modules.com/
+* Running Web Application:
+```sh
+npm start
+```
 
 ## Server
 * Node.js Web Server - https://nodejs.org/en/docs/guides/getting-started-guide/
