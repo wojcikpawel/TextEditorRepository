@@ -24,9 +24,17 @@
 * Node Modules - http://node-modules.com/
 
 ## Server
-* mongoose - https://mongoosejs.com/ || https://github.com/Automattic/mongoose
+* Node.js Web Server - https://nodejs.org/en/docs/guides/getting-started-guide/
+* Running Node.js Web Server:
+```sh
+node app.js
+```
+
+* mongoose - https://mongoosejs.com/ || https://github.com/Automattic/mongoose || https://www.npmjs.com/package/mongoose
+
 
 ## Database
+* mongodb - https://www.mongodb.com/ || https://www.npmjs.com/package/mongodb
 
 ## REST Application Programming Interface
 
