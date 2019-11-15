@@ -44,6 +44,8 @@ npm install mongoose
 ```sh
 npm install body-parser
 ```
+* Info
+127.0.0.1:3000 = localhost:3000
 
 ## Database
 * mongodb - https://www.mongodb.com/ || https://www.npmjs.com/package/mongodb
