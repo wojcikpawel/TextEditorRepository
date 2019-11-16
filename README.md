@@ -26,6 +26,8 @@
 ```sh
 npm start
 ```
+* Web App runs on
+http://localhost:3000/ || http://127.0.0.1:3000
 
 ## Server
 * Node.js Web Server - https://nodejs.org/en/docs/guides/getting-started-guide/
@@ -45,7 +47,7 @@ npm install mongoose
 npm install body-parser
 ```
 * Server runs on
-http://127.0.0.1:3000
+http://localhost:4000/ || http://localhost:4000/
 
 * Info
 127.0.0.1:3000 = localhost:3000
