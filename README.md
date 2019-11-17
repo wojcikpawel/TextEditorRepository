@@ -74,7 +74,9 @@ mongo
 ## REST Application Programming Interface
 
 ## WebSocket
-
+* https://www.websocket.org/echo.html
+* https://www.npmjs.com/package/ws
+* Websocket Demos: https://codepen.io/matt-west/pen/tHlBb
 ## Additional
 * .NET components:
   * MenuStrip
