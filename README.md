@@ -51,7 +51,7 @@ http://localhost:5000/
 current url: http://localhost:5000/orders
 
 * Info
-127.0.0.1:3000 = localhost:3000
+127.0.0.1:5000 = localhost:5000
 
 ## Database
 * mongodb - https://www.mongodb.com/ || https://www.npmjs.com/package/mongodb
