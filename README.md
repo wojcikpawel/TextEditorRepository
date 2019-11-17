@@ -47,7 +47,8 @@ npm install mongoose
 npm install body-parser
 ```
 * Server runs on
-http://localhost:4000/ || http://localhost:4000/
+http://localhost:5000/
+current url: http://localhost:5000/orders
 
 * Info
 127.0.0.1:3000 = localhost:3000
