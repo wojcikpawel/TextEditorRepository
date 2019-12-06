@@ -78,6 +78,7 @@ mongo
 * https://www.websocket.org/echo.html
 * https://www.npmjs.com/package/ws
 * Websocket Demos: https://codepen.io/matt-west/pen/tHlBb
+* Documentation socket.io: https://socket.io/docs/
 ## Additional
 * .NET components:
   * MenuStrip
