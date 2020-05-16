@@ -53,9 +53,12 @@ current url: http://localhost:5000/orders
 * Info
 127.0.0.1:5000 = localhost:5000
 
-## Database
-* mongodb - https://www.mongodb.com/ || https://www.npmjs.com/package/mongodb
-* Install mongodb:
+## Database MongoDB
+* MongoDB Official - https://www.mongodb.com/ | https://www.npmjs.com/package/mongodb
+* Mongo Help - https://zellwk.com/blog/local-mongodb/ | http://jsdn.pl/podstawy-mongodb/
+* MongoDB Compass - https://www.mongodb.com/download-center/compass
+* MongoDB Documentation - https://docs.mongodb.com/manual/reference/method/db.collection.insert/#examples
+* Install MongoDB:
 ```sh
 npm install mongodb
 ```
@@ -67,9 +70,51 @@ mongo -version
 ```sh
 mongod --dbpath .
 ```
-* Running Process Database:
+* Running Process Database - Interaction with MongoDB:
 ```sh
 mongo
+```
+* Running MongoDB Compass:
+```sh
+C:\Program Files\MongoDB Compass\MongoDBCompass.exe
+```
+* To connect to your local MongoDB:
+```sh
+Hostname: localhost
+Port: 27017
+URL: mongodb://127.0.0.1:27017
+```
+
+* Commands:
+```sh
+db
+```
+```sh
+show dbs
+```
+```sh
+use <database>
+```
+```sh
+db.<collectionName>.insert({name: "Paul"})
+```
+```sh
+db.<collectionName>.insert({name: 'Mark'})
+```
+```sh
+db.<collectionName>.insertOne({ name: "Jax" })
+```
+```sh
+db.<collectionName>.insertOne({ name: 'Jon Snow' })
+```
+```sh
+db.<collectionName>.find()
+```
+```sh
+show tables 
+```
+```sh
+show collections
 ```
 
 ## REST Application Programming Interface
