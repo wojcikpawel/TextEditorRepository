@@ -1,4 +1,4 @@
-## Run REST-API:
+## Run Prototype REST-API:
 * Run Node.js Server:
 ```sh
 node server.js
