@@ -3,6 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Net.Http;
+using System.Net.Http.Headers;
+
+//using Newtonsoft.Json;
+//using System.Windows.Controls;
+//using System.Windows.Forms;
+//using ToggleSwitch;
+
+using System.Drawing;
+using System.Reflection;
+
+using System.Net.Sockets;
+using System.Net.WebSockets;
+using System.Net.Mail;
+
 
 namespace NativeAppClientLibrary
 {
@@ -24,8 +39,4 @@ namespace NativeAppClientLibrary
 
         //adding empty comment
     }
-
-
-
-
 }
