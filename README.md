@@ -120,6 +120,7 @@ show collections
 ## REST Application Programming Interface
 
 ## WebSocket
+* Install WebSocket:
 ```sh
 npm install ws
 ```
