@@ -1,5 +1,8 @@
-(function() {
-  var url = 'wss://echo.websocket.org';
+(function() 
+{
+  var url = 'wss://echo.websocket.org'; 
+  //źródło: https://www.websocket.org/echo.html
+  //Źródło: https://kaazing.com/inspecting-websocket-traffic-with-chrome-developer-tools/
   var mySocket = new WebSocket(url);
   var container = document.getElementById('container');
 
@@ -17,19 +20,21 @@
 
     return event.which;
   };
-
+  /*
   mySocket.onopen = function() {
     console.log('opened !');
     container.innerHTML += '<h2><span class="label label-default">Connection established : ' + url + '</span></h2>';
   };
-  
+  */
   mySocket.onmessage = function(e) {
     console.log('server: ' + e.data);
     container.innerHTML += '<div class="server-message"><span class="label label-warning">Server</span><span>' + e.data + '</span></div>';
   };
   
+   /*
   mySocket.onclose = function() {
     console.log('closed !');
     container.innerHTML += '<h2><span class="label label-default">Connection closed</span></h2>';
   };
+  */
 }());
