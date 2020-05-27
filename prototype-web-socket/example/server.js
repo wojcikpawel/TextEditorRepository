@@ -3,6 +3,8 @@ const http = require('http');
 //importing ws module
 const websocket = require('ws');
 
+//źródło: https://bulldogjob.pl/news/751-prosto-o-websocket
+
 //creating a http server
 const server = http.createServer((req, res) => {
     res.end("I am connected");
