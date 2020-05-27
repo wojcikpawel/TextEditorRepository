@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using NativeAppClientLibrary;
 
+using System.Net.Http;
+
+
 namespace NativeAppClient
 {
     public partial class NativeAppClient : Form
@@ -89,6 +92,16 @@ namespace NativeAppClient
         {
             groupBoxYourFiles.Visible = false;
             dataGridViewYourFiles.Visible = false;
+        }
+
+        private void downloadFilesBtn_Click(object sender, EventArgs e)
+        {
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new Uri("http://localhost:5000/");
+            HttpResponseMessage response = client.GetAsync("EndpointsProducts/komunikatprodukt").Result;
+            //var emp = response.Content.ReadAsAsync<IEnumerable<Employee>>().Result();
+            //dataGridView1.DataSource = emp;
+            //dataGridViewYourFiles.DataSource = emp;
         }
     }
 }

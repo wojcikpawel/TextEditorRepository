@@ -32,35 +32,35 @@
             this.downloadFilesBtn = new System.Windows.Forms.Button();
             this.showFilesBtn = new System.Windows.Forms.Button();
             this.groupBoxMenu = new System.Windows.Forms.GroupBox();
+            this.closeFilesBtn = new System.Windows.Forms.Button();
+            this.sendFilesBtn = new System.Windows.Forms.Button();
             this.groupBoxNewFile = new System.Windows.Forms.GroupBox();
             this.richTextBoxNewFile = new System.Windows.Forms.RichTextBox();
-            this.sendFilesBtn = new System.Windows.Forms.Button();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.openFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.formatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.formatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fontToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.informationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fontToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
+            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.dataGridViewYourFiles = new System.Windows.Forms.DataGridView();
-            this.groupBoxYourFiles = new System.Windows.Forms.GroupBox();
             this.fileName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.modifyDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastModifyDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.closeFilesBtn = new System.Windows.Forms.Button();
+            this.groupBoxYourFiles = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBoxMenu.SuspendLayout();
             this.groupBoxNewFile.SuspendLayout();
@@ -76,8 +76,9 @@
             this.downloadFilesBtn.Name = "downloadFilesBtn";
             this.downloadFilesBtn.Size = new System.Drawing.Size(123, 44);
             this.downloadFilesBtn.TabIndex = 1;
-            this.downloadFilesBtn.Text = "Download Files";
+            this.downloadFilesBtn.Text = "Get All Files";
             this.downloadFilesBtn.UseVisualStyleBackColor = true;
+            this.downloadFilesBtn.Click += new System.EventHandler(this.downloadFilesBtn_Click);
             // 
             // showFilesBtn
             // 
@@ -102,6 +103,25 @@
             this.groupBoxMenu.TabStop = false;
             this.groupBoxMenu.Text = "Menu";
             // 
+            // closeFilesBtn
+            // 
+            this.closeFilesBtn.Location = new System.Drawing.Point(28, 69);
+            this.closeFilesBtn.Name = "closeFilesBtn";
+            this.closeFilesBtn.Size = new System.Drawing.Size(123, 44);
+            this.closeFilesBtn.TabIndex = 11;
+            this.closeFilesBtn.Text = "Close Files";
+            this.closeFilesBtn.UseVisualStyleBackColor = true;
+            this.closeFilesBtn.Click += new System.EventHandler(this.closeFilesBtn_Click);
+            // 
+            // sendFilesBtn
+            // 
+            this.sendFilesBtn.Location = new System.Drawing.Point(28, 119);
+            this.sendFilesBtn.Name = "sendFilesBtn";
+            this.sendFilesBtn.Size = new System.Drawing.Size(123, 44);
+            this.sendFilesBtn.TabIndex = 7;
+            this.sendFilesBtn.Text = "Send Files";
+            this.sendFilesBtn.UseVisualStyleBackColor = true;
+            // 
             // groupBoxNewFile
             // 
             this.groupBoxNewFile.Controls.Add(this.richTextBoxNewFile);
@@ -121,15 +141,6 @@
             this.richTextBoxNewFile.TabIndex = 6;
             this.richTextBoxNewFile.Text = "";
             this.richTextBoxNewFile.Visible = false;
-            // 
-            // sendFilesBtn
-            // 
-            this.sendFilesBtn.Location = new System.Drawing.Point(28, 119);
-            this.sendFilesBtn.Name = "sendFilesBtn";
-            this.sendFilesBtn.Size = new System.Drawing.Size(123, 44);
-            this.sendFilesBtn.TabIndex = 7;
-            this.sendFilesBtn.Text = "Send Files";
-            this.sendFilesBtn.UseVisualStyleBackColor = true;
             // 
             // menuStrip
             // 
@@ -161,37 +172,47 @@
             // newFileToolStripMenuItem
             // 
             this.newFileToolStripMenuItem.Name = "newFileToolStripMenuItem";
-            this.newFileToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.newFileToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.newFileToolStripMenuItem.Text = "New File";
             this.newFileToolStripMenuItem.Click += new System.EventHandler(this.newFileToolStripMenuItem_Click);
             // 
-            // saveAsToolStripMenuItem
+            // toolStripSeparator2
             // 
-            this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.saveAsToolStripMenuItem.Text = "Save As";
-            this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(121, 6);
             // 
             // openFileToolStripMenuItem
             // 
             this.openFileToolStripMenuItem.Name = "openFileToolStripMenuItem";
-            this.openFileToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.openFileToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.openFileToolStripMenuItem.Text = "Open File";
             this.openFileToolStripMenuItem.Click += new System.EventHandler(this.openFileToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+            // 
+            // saveAsToolStripMenuItem
+            // 
+            this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.saveAsToolStripMenuItem.Text = "Save As";
+            this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(121, 6);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
             // 
@@ -203,6 +224,24 @@
             this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.editToolStripMenuItem.Text = "Edit";
             // 
+            // cutToolStripMenuItem
+            // 
+            this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
+            this.cutToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
+            this.cutToolStripMenuItem.Text = "Cut";
+            // 
+            // copyToolStripMenuItem
+            // 
+            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
+            this.copyToolStripMenuItem.Text = "Copy";
+            // 
+            // pasteToolStripMenuItem
+            // 
+            this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
+            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
+            this.pasteToolStripMenuItem.Text = "Paste";
+            // 
             // formatToolStripMenuItem
             // 
             this.formatToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -210,6 +249,12 @@
             this.formatToolStripMenuItem.Name = "formatToolStripMenuItem";
             this.formatToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.formatToolStripMenuItem.Text = "Format";
+            // 
+            // fontToolStripMenuItem
+            // 
+            this.fontToolStripMenuItem.Name = "fontToolStripMenuItem";
+            this.fontToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
+            this.fontToolStripMenuItem.Text = "Font";
             // 
             // helpToolStripMenuItem
             // 
@@ -219,53 +264,19 @@
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
-            // cutToolStripMenuItem
-            // 
-            this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
-            this.cutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.cutToolStripMenuItem.Text = "Cut";
-            // 
-            // copyToolStripMenuItem
-            // 
-            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.copyToolStripMenuItem.Text = "Copy";
-            // 
-            // pasteToolStripMenuItem
-            // 
-            this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
-            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.pasteToolStripMenuItem.Text = "Paste";
-            // 
             // informationToolStripMenuItem
             // 
             this.informationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem});
             this.informationToolStripMenuItem.Name = "informationToolStripMenuItem";
-            this.informationToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.informationToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.informationToolStripMenuItem.Text = "Information";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "About";
-            // 
-            // fontToolStripMenuItem
-            // 
-            this.fontToolStripMenuItem.Name = "fontToolStripMenuItem";
-            this.fontToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.fontToolStripMenuItem.Text = "Font";
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(149, 6);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
             // 
             // dataGridViewYourFiles
             // 
@@ -279,17 +290,6 @@
             this.dataGridViewYourFiles.Size = new System.Drawing.Size(417, 345);
             this.dataGridViewYourFiles.TabIndex = 9;
             this.dataGridViewYourFiles.Visible = false;
-            // 
-            // groupBoxYourFiles
-            // 
-            this.groupBoxYourFiles.Controls.Add(this.dataGridViewYourFiles);
-            this.groupBoxYourFiles.Location = new System.Drawing.Point(627, 38);
-            this.groupBoxYourFiles.Name = "groupBoxYourFiles";
-            this.groupBoxYourFiles.Size = new System.Drawing.Size(434, 369);
-            this.groupBoxYourFiles.TabIndex = 10;
-            this.groupBoxYourFiles.TabStop = false;
-            this.groupBoxYourFiles.Text = "Your Files";
-            this.groupBoxYourFiles.Visible = false;
             // 
             // fileName
             // 
@@ -309,15 +309,16 @@
             this.lastModifyDate.Name = "lastModifyDate";
             this.lastModifyDate.Width = 150;
             // 
-            // closeFilesBtn
+            // groupBoxYourFiles
             // 
-            this.closeFilesBtn.Location = new System.Drawing.Point(28, 69);
-            this.closeFilesBtn.Name = "closeFilesBtn";
-            this.closeFilesBtn.Size = new System.Drawing.Size(123, 44);
-            this.closeFilesBtn.TabIndex = 11;
-            this.closeFilesBtn.Text = "Close Files";
-            this.closeFilesBtn.UseVisualStyleBackColor = true;
-            this.closeFilesBtn.Click += new System.EventHandler(this.closeFilesBtn_Click);
+            this.groupBoxYourFiles.Controls.Add(this.dataGridViewYourFiles);
+            this.groupBoxYourFiles.Location = new System.Drawing.Point(627, 38);
+            this.groupBoxYourFiles.Name = "groupBoxYourFiles";
+            this.groupBoxYourFiles.Size = new System.Drawing.Size(434, 369);
+            this.groupBoxYourFiles.TabIndex = 10;
+            this.groupBoxYourFiles.TabStop = false;
+            this.groupBoxYourFiles.Text = "Your Files";
+            this.groupBoxYourFiles.Visible = false;
             // 
             // pictureBox1
             // 
