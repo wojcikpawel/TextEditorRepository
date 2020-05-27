@@ -15,7 +15,7 @@
 * utworzenie nowego pliku
 * wyświetlenie pliku
 * edycja pliku
-* wysłanie zmian na serwer
+* wysłanie zedytowanych plików na serwer
 * pobranie listy plików z serwera
 * komunikacja z serwerem odbywa się za pomocą REST API
 
