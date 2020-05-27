@@ -1,18 +1,15 @@
 const http = require('http');
-const app = require('./app');
+const express = require('express');
 
 const port = process.env.PORT || 5000;
-
+const app = express();
 const server = http.createServer(app);
 
-const express = require('express');
-//const app = express();
+const orderRoutes = require('./api/routes/EndpointsOrders');
+const productRoutes = require('./api/routes/EndpointsProducts');
 
-const productRoutes = require('./api/routes/products');
-const orderRoutes = require('./api/routes/orders');
-
-app.use('/products', productRoutes);
-app.use('/orders', orderRoutes);
+app.use('/EndpointsOrders', orderRoutes);
+app.use('/EndpointsProducts', productRoutes);
 
 module.exports = app;
 

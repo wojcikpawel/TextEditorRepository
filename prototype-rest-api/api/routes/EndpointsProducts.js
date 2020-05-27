@@ -1,23 +1,28 @@
 const express = require('express');
 const router = express.Router();
 
+router.get('/komunikatprodukt', function(req, res, next){
+    res.send('Odpowiedź Produktu!');
+  });
 
+module.exports = router;
 
+/*
 router.get('/', (req, res, next) => {
     res.status(200).json({
         message: 'Handling GET requests to /products'
     });
 });
 
-router.get('/produkt', function(req, res, next){
-  res.send('hejka-produkt');
-});
+
 
 router.post('/', (req, res, next) => {
     res.status(201).json({
         message: 'Handling POST requests to /products'
     });
 });
+*/
+
 /*
 router.get('/:productId', (req, res, next) => {
     const id = req.params.productId;
@@ -45,4 +50,3 @@ router.delete('/:productId', (req, res, next) => {
     });
 });
 */
-module.exports = router;

@@ -2,6 +2,13 @@ const express = require('express');
 const router = express.Router();
 var util = require('util');
 
+
+router.get('/komunikatzamowienie', function(req, res, next){
+    res.send('Odpowiedź Zamówienia!');
+  });
+
+module.exports = router;
+/*
 router.get('/', (req, res, next) => {
     res.status(200).json({
         message: 'Orders were fetched'
@@ -13,7 +20,7 @@ router.post('/', (req, res, next) => {
         message: 'Order was created'
     });
 });
-
+*/
 /*
 router.get('/:orderId', (req, res, next) => {
     res.status(200).json({
@@ -21,7 +28,7 @@ router.get('/:orderId', (req, res, next) => {
         orderId: req.params.orderId
     });
 });
-*/
+
 
 router.delete('/:orderId', (req, res, next) => {
     res.status(200).json({
@@ -30,9 +37,7 @@ router.delete('/:orderId', (req, res, next) => {
     });
 });
 
-router.get('/siemanko', function(req, res, next){
-  res.send('ello');
-});
+
 
 router.get('/hej', function(req, res, next) {
   //object or variable
@@ -60,5 +65,4 @@ router.post('/logowanie', function(req, res, next){
   //body.pass = 'brak';
   res.send(body);
 });
-
-module.exports = router;
+*/
