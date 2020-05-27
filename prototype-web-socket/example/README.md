@@ -1,6 +1,6 @@
 ## Run Prototype WebSocket:
 ```sh
-Run node server.js
+node server.js
 ```
 ```sh
 client.html
