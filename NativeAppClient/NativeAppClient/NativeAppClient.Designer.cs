@@ -62,6 +62,7 @@
             this.lastModifyDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBoxYourFiles = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBoxMenu.SuspendLayout();
             this.groupBoxNewFile.SuspendLayout();
             this.menuStrip.SuspendLayout();
@@ -96,7 +97,7 @@
             this.groupBoxMenu.Controls.Add(this.sendFilesBtn);
             this.groupBoxMenu.Controls.Add(this.downloadFilesBtn);
             this.groupBoxMenu.Controls.Add(this.showFilesBtn);
-            this.groupBoxMenu.Location = new System.Drawing.Point(12, 38);
+            this.groupBoxMenu.Location = new System.Drawing.Point(12, 117);
             this.groupBoxMenu.Name = "groupBoxMenu";
             this.groupBoxMenu.Size = new System.Drawing.Size(178, 229);
             this.groupBoxMenu.TabIndex = 3;
@@ -125,7 +126,7 @@
             // groupBoxNewFile
             // 
             this.groupBoxNewFile.Controls.Add(this.richTextBoxNewFile);
-            this.groupBoxNewFile.Location = new System.Drawing.Point(214, 38);
+            this.groupBoxNewFile.Location = new System.Drawing.Point(205, 117);
             this.groupBoxNewFile.Name = "groupBoxNewFile";
             this.groupBoxNewFile.Size = new System.Drawing.Size(407, 369);
             this.groupBoxNewFile.TabIndex = 6;
@@ -312,7 +313,7 @@
             // groupBoxYourFiles
             // 
             this.groupBoxYourFiles.Controls.Add(this.dataGridViewYourFiles);
-            this.groupBoxYourFiles.Location = new System.Drawing.Point(627, 38);
+            this.groupBoxYourFiles.Location = new System.Drawing.Point(618, 117);
             this.groupBoxYourFiles.Name = "groupBoxYourFiles";
             this.groupBoxYourFiles.Size = new System.Drawing.Size(434, 369);
             this.groupBoxYourFiles.TabIndex = 10;
@@ -323,18 +324,30 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 273);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 369);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(178, 193);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(204, 43);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(742, 42);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "What do You want to do with your text files?";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // NativeAppClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1116, 586);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBoxMenu);
             this.Controls.Add(this.groupBoxNewFile);
@@ -391,6 +404,7 @@
         private System.Windows.Forms.GroupBox groupBoxYourFiles;
         private System.Windows.Forms.Button closeFilesBtn;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
