@@ -15,7 +15,7 @@
 * utworzenie nowego pliku
 * wyświetlenie pliku
 * edycja pliku
-* wysłanie zmian na serwer
+* wysłanie zedytowanych plików na serwer
 * pobranie listy plików z serwera
 * komunikacja z serwerem odbywa się za pomocą REST API
 
@@ -120,6 +120,10 @@ show collections
 ## REST Application Programming Interface
 
 ## WebSocket
+* Install WebSocket:
+```sh
+npm install ws
+```
 * https://www.websocket.org/echo.html
 * https://www.npmjs.com/package/ws
 * Websocket Demos: https://codepen.io/matt-west/pen/tHlBb
