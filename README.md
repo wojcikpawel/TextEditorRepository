@@ -31,6 +31,8 @@ http://localhost:3000/ || http://127.0.0.1:3000
 
 ## Server Node.js Web Server
 <p align="center"><img src="https://github.com/wojcikpawel/TextEditorRepository/blob/master/Images/Node.jpg" width="370px" height="220px" /></p>
+<p align="center"><img src="https://github.com/wojcikpawel/TextEditorRepository/blob/master/Images/Express.jpg" width="678px" height="271px" /></p>
+
 
 * Node.js Web Server - https://nodejs.org/en/docs/guides/getting-started-guide/
 * Running Node.js Web Server:
@@ -56,6 +58,11 @@ current url: http://localhost:5000/orders
 127.0.0.1:5000 = localhost:5000
 
 ## Database MongoDB
+<p align="center"><img src="https://github.com/wojcikpawel/TextEditorRepository/blob/master/Images/MongoDB.jpg" width="356px" height="187px" /></p>
+
+<p align="center"><img src="https://github.com/wojcikpawel/TextEditorRepository/blob/master/Images/Mongoose.jpg" width="878px" height="196px" /></p>
+
+
 * MongoDB Official - https://www.mongodb.com/ | https://www.npmjs.com/package/mongodb
 * Mongo Help - https://zellwk.com/blog/local-mongodb/ | http://jsdn.pl/podstawy-mongodb/
 * MongoDB Compass - https://www.mongodb.com/download-center/compass
@@ -121,8 +128,10 @@ show collections
 
 ## REST Application Programming Interface
 
-## WebSocket
-* Install WebSocket:
+## WebSocket/Socket.io
+<p align="center"><img src="https://github.com/wojcikpawel/TextEditorRepository/blob/master/Images/Socket.jpg" width="201px" height="195px" /></p>
+
+* Install WebSocket/Socket.io:
 ```sh
 npm install ws
 ```
