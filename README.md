@@ -30,6 +30,8 @@
 http://localhost:3000/ || http://127.0.0.1:3000
 
 ## Server Node.js Web Server
+<p align="center"><img src="https://github.com/wojcikpawel/TextEditorRepository/blob/master/Images/Node.jpg" width="370px" height="220px" /></p>
+
 * Node.js Web Server - https://nodejs.org/en/docs/guides/getting-started-guide/
 * Running Node.js Web Server:
 ```sh
