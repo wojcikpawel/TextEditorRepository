@@ -11,7 +11,7 @@
 * [Native Application](#native-application-desktop-windows-forms)
 
 ## NativeAppClient
-
+![NativeAppClientPicture](./Images/NativeAppClient.jpg)
 
 * utworzenie nowego pliku
 * wyświetlenie pliku
@@ -21,7 +21,7 @@
 * komunikacja z serwerem odbywa się za pomocą REST API
 
 ## WebAppClient
-
+![WebAppClient](./Images/WebAppClient.jpg)
 * Running Web Application:
 ```sh
 
