@@ -10,7 +10,8 @@
 * [Additional](#additional)
 * [Native Application](#native-application-desktop-windows-forms)
 
-## Native-Client Desktop Windows Forms
+## NativeAppClient
+
 
 * utworzenie nowego pliku
 * wyświetlenie pliku
@@ -19,12 +20,11 @@
 * pobranie listy plików z serwera
 * komunikacja z serwerem odbywa się za pomocą REST API
 
-## Web-Client React.js
+## WebAppClient
 
-* Node Modules - http://node-modules.com/
 * Running Web Application:
 ```sh
-npm start
+
 ```
 * Web App runs on
 http://localhost:3000/ || http://127.0.0.1:3000
