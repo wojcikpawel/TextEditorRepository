@@ -7,7 +7,12 @@ router.get('/komunikatzamowienie', function(req, res, next){
     res.send('Odpowiedź Zamówienia!');
   });
 
+router.post('/komunikatzamowieniepost', function(req, res, next){
+    res.send('Odpowiedź Zamówienia POST!');
+});
 module.exports = router;
+
+
 /*
 router.get('/', (req, res, next) => {
     res.status(200).json({
@@ -55,9 +60,7 @@ router.get('/hej', function(req, res, next) {
  // res.send(params);
 });
 
-router.post('/goodmorning', function(req, res, next){
-    res.send('byebye');
-});
+
 
 router.post('/logowanie', function(req, res, next){
   var body = req.body;

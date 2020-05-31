@@ -43,7 +43,10 @@
 						<div><input class="button button4" type="button" value="Show Files"></div>
 						<div><input class="button button4" type="button" value="Close Files"></div>
 						<div><input class="button button4" type="button" value="Send Files"></div>
-						<div><input class="button button4" type="button" value="Get All Files"></div>
+						<div><input class="button button4" type="button" value="Get All Files" onclick="powiadomienie()"></div>
+
+
+						
 						
 						<!--
 						<button class="button button1">10px</button>
@@ -185,6 +188,11 @@
 	<!--	</article> -->
 		
 	</main>
-
+		<script>
+			function powiadomienie() 
+			{
+				alert("Pobierasz wszystkie pliki z serwera!");
+			}
+		</script>
 </body>
 </html>
