@@ -120,6 +120,9 @@ db.<collectionName>.insertOne({ name: 'Jon Snow' })
 db.<collectionName>.find()
 ```
 ```sh
+db.<collectionName>.drop()
+```
+```sh
 show tables 
 ```
 ```sh
