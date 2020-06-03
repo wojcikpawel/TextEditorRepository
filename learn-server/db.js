@@ -18,3 +18,4 @@ db.uzytkownicy = schemas.users;
 module.exports = db;
 
 //Źródło: https://www.youtube.com/watch?v=PQzU9a5_Njs
+//Źródło: https://github.com/shoaibcode/NodeJS-RESTAPI
