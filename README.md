@@ -152,3 +152,20 @@ npm install ws
   * PictureBox
   * RichTextBox
   * DataGridView
+  
+  ## To Collaborate
+
+1. git clone https://github.com/wojcikpawel/TextEditorRepository.git
+2. git checkout -b <your_initials + branch_number>  //for example:  git checkout -b mp_1
+2.1 "make changes in your local repository"
+3. git add <path_files>
+4. git commit -m "#<number> Your comment"               //for example: git commit -m "#1 Adding new label in NoticeView"
+5. git push origin <branch_number>                             //for example: git push origin mp_1
+6. git checkout master
+
+You should log in and pull request from your WWW repository
+
+for pull changes from master repository
+1. git checkout master
+2. git fetch
+3. git pull
