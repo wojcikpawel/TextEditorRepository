@@ -153,7 +153,7 @@ npm install ws
   * RichTextBox
   * DataGridView
   
-  ## To Collaborate
+## To Collaborate
 
 1. git clone https://github.com/wojcikpawel/TextEditorRepository.git
 2. git checkout -b <your_initials + branch_number>  //for example:  git checkout -b mp_1
