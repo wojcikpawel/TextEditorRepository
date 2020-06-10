@@ -165,7 +165,10 @@ npm install ws
 
 You should log in and pull request from your WWW repository
 
-for pull changes from master repository
+for pull changes from master repository:
 1. git checkout master
 2. git fetch
 3. git pull
+
+for invite your collaborator:
+Settings -> Manage Access -> Inviate a collaborator
