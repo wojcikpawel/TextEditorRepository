@@ -171,4 +171,6 @@ for pull changes from master repository:
 3. git pull
 
 for invite your collaborator:
-Settings -> Manage Access -> Inviate a collaborator
+1. Settings
+2. Manage Access
+3. Invite a collaborator
