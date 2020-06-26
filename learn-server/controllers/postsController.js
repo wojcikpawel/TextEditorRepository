@@ -11,10 +11,28 @@ exports.get_all_posts = function(req, res){
 
         res.send("Poprawnie pobrales wszyskie pocztowki z serwera!");
         res.json(result);
+        res.json({ message: 'Document successfully created' });
+    });
+};
+
+/*
+WebStorm
+const mongoose = require('mongoose');
+docs = mongoose.model('documentsssss');
+
+exports.list_all_documents = function(req, res){
+    docs.find({}, function(err,doc) {
+        if(err)
+        res.send(err);
+        res.json(doc);
     });
 };
 
 
+
+
+
+*/
 /*
 db.pocztowki.create({post_id: 7, post_name: 'mojamalapocztoweczka'}, function(err, result){
     console.log(util.inspect(result));

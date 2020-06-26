@@ -22,10 +22,10 @@ app.use(bodyParser.json())
 //app.use('/students', studentsEndpoints);
 
 //Routes-REST API Endpoints URLs
-var postsEndpoints = require('./routes/postsEndpoints');
+const postsEndpoints = require('./routes/postsEndpoints');
 app.use("/posts", postsEndpoints);
 
-var usersEndpoints = require('./routes/usersEndpoints');
+const usersEndpoints = require('./routes/usersEndpoints');
 app.use("/users", usersEndpoints);
 
 app.listen(3001, function () {
