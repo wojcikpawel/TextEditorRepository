@@ -174,3 +174,12 @@ for invite your collaborator:
 1. Settings
 2. Manage Access
 3. Invite a collaborator
+
+## Summary
+Paweł Wójcik &copy;
+
+
+This application was created by **Paweł Wójcik** <br />
+> **Google Play:** https://www.google.pl/ <br />
+> **Apple Store:** https://www.google.pl/ <br />
+> **Expo:** https://www.google.pl/ <br />
