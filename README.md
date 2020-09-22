@@ -183,3 +183,9 @@ This application was created by **Paweł Wójcik** <br />
 > **Google Play:** https://www.google.pl/ <br />
 > **Apple Store:** https://www.google.pl/ <br />
 > **Expo:** https://www.google.pl/ <br />
+
+Proof of concept
+
+MVP - Minimum Viable Product
+
+DEMO
