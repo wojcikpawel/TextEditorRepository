@@ -190,5 +190,13 @@ MVP - Minimum Viable Product
 
 DEMO
 
-JAMStack - JavaScript/API/Markup
-MERNStack - MongoDB/Express.js/React.js/Node.js
+JAMStack:
+* JavaScript
+* API
+* Markup
+ 
+MERNStack:
+* MongoDB
+* Express.js
+* React.js
+* Node.js
