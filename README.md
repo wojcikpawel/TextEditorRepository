@@ -189,3 +189,6 @@ Proof of concept
 MVP - Minimum Viable Product
 
 DEMO
+
+JAMStack - JavaScript/API/Markup
+MERNStack - MongoDB/Express.js/React.js/Node.js
