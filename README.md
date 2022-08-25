@@ -203,3 +203,6 @@ MERNStack:
 
 ## Building a chat app with Socket.io and React 🚀
 * https://dev.to/novu/building-a-chat-app-with-socketio-and-react-2edj
+ 
+## Notification management simplified - The ultimate service for managing multi-channel notifications with a single API.
+* https://github.com/novuhq/novu
