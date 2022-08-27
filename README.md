@@ -206,3 +206,10 @@ MERNStack:
  
 ## Notification management simplified - The ultimate service for managing multi-channel notifications with a single API.
 * https://github.com/novuhq/novu
+
+## Logowanie/Meldowanie (ang. Logging In/Sign In)
+* https://www.youtube.com/watch?v=reumU4CvruA&ab_channel=WebDevSimplified
+* https://www.youtube.com/watch?v=X9reTI_Mckk&ab_channel=ParvatComputerTechnology
+
+## Rejestracja/ (ang. Registration/Sign Up)
+* https://www.youtube.com/watch?v=Nc5AIJJ2ARA&ab_channel=ParvatComputerTechnology
