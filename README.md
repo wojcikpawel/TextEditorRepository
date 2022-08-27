@@ -213,3 +213,6 @@ MERNStack:
 
 ## Rejestracja/ (ang. Registration/Sign Up)
 * https://www.youtube.com/watch?v=Nc5AIJJ2ARA&ab_channel=ParvatComputerTechnology
+
+## MagicEraser - Usuń niechciane elementy z obrazków w kilka sekund!
+* https://www.magiceraser.io/
