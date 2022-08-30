@@ -130,6 +130,8 @@ show collections
 ```
 
 ## REST Application Programming Interface
+* https://www.youtube.com/watch?v=V0zaBuHkzOY&ab_channel=Jakzacz%C4%85%C4%87programowa%C4%87%3F
+* https://www.youtube.com/watch?v=P9b8-BrWdYs&ab_channel=overment
 
 ## WebSocket/Socket.io
 <p align="center"><img src="https://github.com/wojcikpawel/TextEditorRepository/blob/master/Images/Socket.jpg" width="201px" height="195px" /></p>
