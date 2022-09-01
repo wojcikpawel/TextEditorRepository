@@ -145,7 +145,14 @@ npm install ws
 * https://www.npmjs.com/package/ws
 * WebSocket Demos: https://codepen.io/matt-west/pen/tHlBb
 * Documentation socket.io: https://socket.io/docs/
-* WebSocket wideo: https://www.youtube.com/watch?v=13HnJPstnDM&ab_channel=AhmedSchrute
+* WebSocket Wideo: https://www.youtube.com/watch?v=13HnJPstnDM&ab_channel=AhmedSchrute
+* WebSocket Wideo: https://www.youtube.com/watch?v=TjfFPMCPBVg&ab_channel=ParametricCamp
+* WebSocket Wideo: https://www.youtube.com/watch?v=8ARodQ4Wlf4&ab_channel=freeCodeCamp.org
+* WebSocket Wideo: https://www.youtube.com/watch?v=ThiAQAB5Dp4&ab_channel=ParametricCamp
+* WebSocket Wideo: https://www.youtube.com/watch?v=xgLRe7QV6QI&ab_channel=Brian
+* WebSocket Wideo: https://www.youtube.com/watch?v=Rctz-kCvuwE&ab_channel=MiguelGrinberg
+* WebSocket Wideo: https://www.youtube.com/watch?v=zWax5QCWCXM
+* WebSocket Wideo: https://www.youtube.com/watch?v=RL_E56NPSN0&ab_channel=KarlHadwen
 
 ## Additional
 * .NET components:
