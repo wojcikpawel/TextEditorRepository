@@ -143,8 +143,10 @@ npm install ws
 ```
 * https://www.websocket.org/echo.html
 * https://www.npmjs.com/package/ws
-* Websocket Demos: https://codepen.io/matt-west/pen/tHlBb
+* WebSocket Demos: https://codepen.io/matt-west/pen/tHlBb
 * Documentation socket.io: https://socket.io/docs/
+* WebSocket wideo: https://www.youtube.com/watch?v=13HnJPstnDM&ab_channel=AhmedSchrute
+
 ## Additional
 * .NET components:
   * MenuStrip
