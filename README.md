@@ -136,6 +136,7 @@ show collections
 * https://www.youtube.com/watch?v=XdtbRkN97go&ab_channel=PrzemekBykowski
 * https://www.youtube.com/watch?v=IbpvUNE1E6s&ab_channel=TechnikaProgramowania
 * https://devszczepaniak.pl/projektowanie-rest-api/
+* Testowanie REST API: https://www.udemy.com/share/101S863@4710_rkT2vfHfwmBe_Uqb-xvIhqDgS8OFw6txn-MO536Sdvwo_bTtFHBiHhlyugb/
 
 ## WebSocket/Socket.io
 <p align="center"><img src="https://github.com/wojcikpawel/TextEditorRepository/blob/master/Images/Socket.jpg" width="201px" height="195px" /></p>
