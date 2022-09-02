@@ -167,7 +167,7 @@ npm install ws
 * VCS Wideo: https://www.youtube.com/watch?v=i2eQ6rrUBK8&ab_channel=Stevdza-San
 * VCS Wideo: https://www.youtube.com/watch?v=SVkuliabq4g&ab_channel=Stevdza-San
 * VCS Wideo: https://www.youtube.com/watch?v=D9kHCecCN9w&ab_channel=Stevdza-San
-* Chat: https://github.com/coderoadpl/chat-app-in-30-minutes
+* Chat: https://github.com/coderoadpl/chat-app-in-30-minutes || https://www.youtube.com/watch?v=_HFlJ3Z6YJM&ab_channel=CodeRoad-KursJavaScriptOnline
 
 ## Additional
 * .NET components:
