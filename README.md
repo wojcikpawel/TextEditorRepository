@@ -156,6 +156,13 @@ npm install ws
 * WebSocket Wideo: https://www.youtube.com/watch?v=PVXHFJlntAU&ab_channel=LeonWatson
 * WebSocket Wideo: https://www.youtube.com/watch?v=ZKEqqIO7n-k&ab_channel=WebDevSimplified
 * WebSocket Wideo: https://www.youtube.com/watch?v=jD7FnbI76Hg&ab_channel=TraversyMedia
+* WebSocket Wideo: https://www.youtube.com/watch?v=e17Lv35Tm-8&ab_channel=SpicySpices
+* WebSocket Wideo: https://www.youtube.com/watch?v=ZKEqqIO7n-k&ab_channel=WebDevSimplified
+* WebSocket Wideo: https://www.youtube.com/watch?v=zQDzNNt6xd4&ab_channel=SandeepSudhakaran
+* WebSocket Wideo: https://www.youtube.com/watch?v=SVkuliabq4g&ab_channel=Stevdza-San
+* VCS Wideo: https://www.youtube.com/watch?v=i2eQ6rrUBK8&ab_channel=Stevdza-San
+* VCS Wideo: https://www.youtube.com/watch?v=SVkuliabq4g&ab_channel=Stevdza-San
+* VCS Wideo: https://www.youtube.com/watch?v=D9kHCecCN9w&ab_channel=Stevdza-San
 
 ## Additional
 * .NET components:
