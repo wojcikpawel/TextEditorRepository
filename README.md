@@ -135,6 +135,7 @@ show collections
 * https://devszczepaniak.pl/projektowanie-rest-api/
 * https://www.youtube.com/watch?v=XdtbRkN97go&ab_channel=PrzemekBykowski
 * https://www.youtube.com/watch?v=IbpvUNE1E6s&ab_channel=TechnikaProgramowania
+* https://devszczepaniak.pl/projektowanie-rest-api/
 
 ## WebSocket/Socket.io
 <p align="center"><img src="https://github.com/wojcikpawel/TextEditorRepository/blob/master/Images/Socket.jpg" width="201px" height="195px" /></p>
