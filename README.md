@@ -133,6 +133,7 @@ show collections
 * https://www.youtube.com/watch?v=V0zaBuHkzOY&ab_channel=Jakzacz%C4%85%C4%87programowa%C4%87%3F
 * https://www.youtube.com/watch?v=P9b8-BrWdYs&ab_channel=overment
 * https://devszczepaniak.pl/projektowanie-rest-api/
+* https://www.youtube.com/watch?v=XdtbRkN97go&ab_channel=PrzemekBykowski
 
 ## WebSocket/Socket.io
 <p align="center"><img src="https://github.com/wojcikpawel/TextEditorRepository/blob/master/Images/Socket.jpg" width="201px" height="195px" /></p>
