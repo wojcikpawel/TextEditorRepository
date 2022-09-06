@@ -228,6 +228,9 @@ MERNStack:
 * React.js
 * Node.js
 
+## Real Time Chat App with ReactJS and Socket.io - #1 - #7
+* https://www.youtube.com/playlist?list=PLfUtdEcvGHFHdOYFXj4cY6ZIFkSp6MOuY
+
 ## Building a chat app with Socket.io and React 🚀
 * https://dev.to/novu/building-a-chat-app-with-socketio-and-react-2edj
  
