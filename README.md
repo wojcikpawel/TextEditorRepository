@@ -246,3 +246,6 @@ MERNStack:
 
 ## MagicEraser - Usuń niechciane elementy z obrazków w kilka sekund!
 * https://www.magiceraser.io/
+ 
+## JSON
+* https://jsoncrack.com/
