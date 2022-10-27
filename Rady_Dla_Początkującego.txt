@@ -1,0 +1,12 @@
+Kajetan Duszyñki:
+1) Projekt zakoñczony, dobra cecha, poniewa¿ pokazuje, ¿e kandydat koñczy to co zacz¹³.
+2) Opis projektu plik ReadMe.MD czego siê nauczy³em, nie opis danej funkcjonalnoœci, ale ma pokazywaæ czego siê nauczy³em robi¹c ten projekt, z jakich technologii skorzysta³, jakich wzorców projektowych u¿y³, bibliotek, tak ¿eby pracodawca wiedzia³ na co zwróciæ uwagê, czy ja to wykorzysta³em œwiadomie. Diagram klas nie bardzo.
+
+Kamil Brzeziñski:
+1) Projekt musi mówiæ coœ o kandydacie, ¿eby nie by³ przepisany z tutoriala z Internetu z drobnymi zmianami, ale ¿eby to ten projekt by³ osobisty, ¿e tworzymy dany projekt bo czymœ siê interesujemy, albo rozwi¹zuje to nasz jakiœ problem.
+2) Testowanie
+
+Adam Wójciñski:
+1) ReadMe.MD
+2) Requirments zale¿noœci
+3) Przegl¹danie kodu w losowym miejscu
