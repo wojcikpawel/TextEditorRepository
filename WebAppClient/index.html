@@ -40,10 +40,10 @@
 						<legend>Menu</legend>
 						
 						
-						<div><input class="button button4" type="button" value="Show Files"></div>
-						<div><input class="button button4" type="button" value="Close Files"></div>
-						<div><input class="button button4" type="button" value="Send Files"></div>
-						<div><input class="button button4" type="button" value="Get All Files" onclick="powiadomienie()"></div>
+						<div><input class="button button4" type="button" value="Show Files" onclick="powiadomienieShow()"></div>
+						<div><input class="button button4" type="button" value="Close Files" onclick="powiadomienieClose()"></div>
+						<div><input class="button button4" type="button" value="Send Files" onclick="powiadomienieSend()"></div>
+						<div><input class="button button4" type="button" value="Get All Files" onclick="powiadomienieGet()"></div>
 
 
 						
@@ -59,9 +59,45 @@
 						<div><label><input type="radio" value="3" name="nadwozie"> Kombi </label></div>-->
 				
 					</fieldset>
-					<div><img class="obrazek" src="document02.png" alt="Trulli" width="256" height="256"></div>
+					<div><img class="obrazek" src="word_06.png" alt="Trulli" width="128" height="128"></div>
 				</form> 
 				</div>
+				
+				<div class="container">
+				<h1>LOG IN</h1>
+				<form action="index.html" method="post">
+					<div class="tbox">
+					<input type="text" placeholder="username" value="">
+					</div>
+					
+					<div class="tbox">
+					<input type="password" placeholder="password" value="">
+					</div>
+					
+					<input class="btn" type="submit" name="" value="LOG IN">
+					
+					
+					
+					
+					
+					
+				</form>
+				<a class="b1" href="#">FORGOT PASSWORD ?</a>
+				<a class="b2" href="#">CREATE AN ACCOUNT</a>
+				</div>
+				
+				<h1>Login</h1>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="Username">
+  </div>
+
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Password">
+  </div>
+
+  <input type="button" class="btn" value="Sign in">
 				<!--
 				<div class="row">
 				
@@ -189,10 +225,23 @@
 		
 	</main>
 		<script>
-			function powiadomienie() 
+			function powiadomienieShow()
 			{
-				alert("Pobierasz wszystkie pliki z serwera!");
+				alert("Wyświetlam wszystkie pliki z serwera!");
+			}
+			function powiadomienieClose() 
+			{
+				alert("Zamykam wszystkie pliki z serwera!");
+			}
+			function powiadomienieSend()
+			{
+				alert("Wysyłam wszystkie pliki na serwer!");
+			}
+			function powiadomienieGet() 
+			{
+				alert("Pobieram wszystkie pliki z serwera!");
 			}
 		</script>
+		
 </body>
 </html>
