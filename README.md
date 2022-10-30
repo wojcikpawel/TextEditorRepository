@@ -253,3 +253,10 @@ MERNStack:
  
 ## JSON
 * https://jsoncrack.com/
+
+## HTML&CSS
+* https://webkod.pl/kurs-css/wlasciwosci/uklad-elastyczny/flex-direction
+* https://www.kurshtml.edu.pl/css/przeplyw,elastyczne.html
+* https://ui2web.com/frontend/jednostki-viewport-na-czym-polegaja/
+* https://how2html.pl/link-html/
+
