@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=zQyrwxMPm88
+
+https://github.com/fireship-io/react-firebase-chat
+
+https://fireship.io/lessons/game-lobby-with-firebase-reactfire/
+
+https://fireship-demos.web.app/
+
+C# Socket Programming:
+https://www.youtube.com/watch?v=xgLRe7QV6QI
