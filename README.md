@@ -253,6 +253,7 @@ MERNStack:
  
 ## JSON
 * https://jsoncrack.com/
+* JWT - JSON Web Tokens: https://jwt.io/
 
 ## HTML&CSS
 * https://webkod.pl/kurs-css/wlasciwosci/uklad-elastyczny/flex-direction
