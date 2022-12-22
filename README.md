@@ -8,7 +8,8 @@
 * [Running Desktop Application](#running-desktop-application)
 * [Library](#library)
 * [Additional](#additional)
-* [Native Application](#native-application-desktop-windows-forms)
+* [Native App Client](#nativeappclient)
+* [Web App Client](#webappclient)
 
 ## NativeAppClient
 ![NativeAppClientPicture](./Images/NativeAppClient.jpg)
