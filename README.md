@@ -233,6 +233,11 @@ MERNStack:
 * React.js
 * Node.js
 
+## REST API
+* POSTMAN: https://www.postman.com/
+* ARC: Advanced REST Client
+* Swagger: https://swagger.io/
+
 ## Real Time Chat App with ReactJS and Socket.io - #1 - #7
 * https://www.youtube.com/playlist?list=PLfUtdEcvGHFHdOYFXj4cY6ZIFkSp6MOuY
 * https://www.youtube.com/watch?v=vu2gxHGgWIs || https://github.com/lyraddigital/chat-app-react
